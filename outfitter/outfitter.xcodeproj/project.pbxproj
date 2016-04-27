@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E8398211CD172D200B8BCFD /* GenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8398201CD172D200B8BCFD /* GenerateViewController.m */; };
 		5EE625661CD16CEE00ED1539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE625651CD16CEE00ED1539 /* main.m */; };
 		5EE625691CD16CEE00ED1539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE625681CD16CEE00ED1539 /* AppDelegate.m */; };
 		5EE6256C1CD16CEE00ED1539 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6256B1CD16CEE00ED1539 /* FirstViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E83981F1CD172D200B8BCFD /* GenerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateViewController.h; sourceTree = "<group>"; };
+		5E8398201CD172D200B8BCFD /* GenerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateViewController.m; sourceTree = "<group>"; };
 		5EE625611CD16CEE00ED1539 /* outfitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = outfitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE625651CD16CEE00ED1539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EE625671CD16CEE00ED1539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				5EE6256B1CD16CEE00ED1539 /* FirstViewController.m */,
 				5EE6256D1CD16CEE00ED1539 /* SecondViewController.h */,
 				5EE6256E1CD16CEE00ED1539 /* SecondViewController.m */,
+				5E83981F1CD172D200B8BCFD /* GenerateViewController.h */,
+				5E8398201CD172D200B8BCFD /* GenerateViewController.m */,
 				5EE625701CD16CEE00ED1539 /* Main.storyboard */,
 				5EE625731CD16CEE00ED1539 /* Assets.xcassets */,
 				5EE625751CD16CEE00ED1539 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			files = (
 				5EE6256F1CD16CEE00ED1539 /* SecondViewController.m in Sources */,
 				5EE625691CD16CEE00ED1539 /* AppDelegate.m in Sources */,
+				5E8398211CD172D200B8BCFD /* GenerateViewController.m in Sources */,
 				5EE6256C1CD16CEE00ED1539 /* FirstViewController.m in Sources */,
 				5EE625661CD16CEE00ED1539 /* main.m in Sources */,
 			);
@@ -502,6 +508,7 @@
 				5EE625931CD16CEE00ED1539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EE625941CD16CEE00ED1539 /* Build configuration list for PBXNativeTarget "outfitterTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				5EE625961CD16CEE00ED1539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EE625971CD16CEE00ED1539 /* Build configuration list for PBXNativeTarget "outfitterUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				5EE625991CD16CEE00ED1539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
